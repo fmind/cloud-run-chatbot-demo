@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"python.defaultInterpreterPath": ".venv/bin/python"
+	},
+	"extensions": {
+		"recommendations": [
+			"dchanco.vsc-invoke",
+			"ms-python.python",
+			"ms-python.vscode-pylance",
+		]
+	}
+}

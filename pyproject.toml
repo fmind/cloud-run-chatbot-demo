@@ -1,0 +1,28 @@
+# https://python-poetry.org/docs/pyproject/
+
+# PROJECT
+
+[tool.poetry]
+name = "cloud-run-chatbot-demo"
+version = "0.0.1"
+description = "Demo of a Gradio chatbot for Cloud Run"
+package-mode = false
+repository = "https://github.com/fmind/cloud-run-chatbot-demo"
+authors = ["Médéric HURIER <github@fmind.dev>"]
+readme = "README.md"
+license = "CC BY"
+
+# DEPENDENCIES
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^4.29.0"
+
+[tool.poetry.group.dev.dependencies]
+invoke = "^2.2.0"
+
+# SYSTEMS
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
